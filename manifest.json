@@ -1,0 +1,23 @@
+{
+  "name": "Make it rain(bow)",
+  "description": "Embrace the inner unicorn and reflect on the page background.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Unleash the unicorn dust!",
+    "default_icon": "icons/icon.png"
+  },
+  "icons": { 
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png" 
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
